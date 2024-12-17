@@ -1,0 +1,35 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: green;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    width: 242px;
+    height: 370px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#card-symbol-header {
+    text-align: left;
+    
+}
+
+#card-value {
+    text-align: center;
+}
+
+#card-symbol-footer {
+    text-align: right;
+}
